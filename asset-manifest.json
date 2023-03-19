@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/Metronome--/static/css/main.644d91bb.css",
-    "main.js": "/Metronome--/static/js/main.bf09cd7b.js",
+    "main.css": "/Metronome--/static/css/main.acf8c92f.css",
+    "main.js": "/Metronome--/static/js/main.57443668.js",
     "static/media/digital7.ttf": "/Metronome--/static/media/digital7.3576385aa1d294b9c795.ttf",
+    "static/media/background.png": "/Metronome--/static/media/background.79e16f81fc1dffa485ef.png",
     "index.html": "/Metronome--/index.html",
-    "main.644d91bb.css.map": "/Metronome--/static/css/main.644d91bb.css.map",
-    "main.bf09cd7b.js.map": "/Metronome--/static/js/main.bf09cd7b.js.map"
+    "main.acf8c92f.css.map": "/Metronome--/static/css/main.acf8c92f.css.map",
+    "main.57443668.js.map": "/Metronome--/static/js/main.57443668.js.map"
   },
   "entrypoints": [
-    "static/css/main.644d91bb.css",
-    "static/js/main.bf09cd7b.js"
+    "static/css/main.acf8c92f.css",
+    "static/js/main.57443668.js"
   ]
 }
