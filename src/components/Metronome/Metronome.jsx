@@ -183,6 +183,10 @@ export class Metronome extends Component {
   tap = event => {
     let data = new Date();
     let time = parseInt(data.getTime(), 10);
+    const bpm = Math.ceil(60000 / (time - tapBpm))
+    if (bpm > 200) {
+      return;
+    }
     this.setState({
       bpm: Math.ceil(60000 / (time - tapBpm)),
     });
@@ -194,7 +198,7 @@ export class Metronome extends Component {
       
     return (
       <div className={css.metronome}>
-        <Section title="Metronome--" isPlaying={isPlaying} beatAcctual={beatAcctual} greenLed={greenLed} current16thNote={current16thNote}/>
+        <Section title="Metronome --" isPlaying={isPlaying} beatAcctual={beatAcctual} greenLed={greenLed} current16thNote={current16thNote}/>
         <Display bpm={bpm.toString()} beats={beatsPerMeasure} beatAcctual={beatAcctual} noteName={noteName} />
         <FunctionButtons beatsPerMeasure={this.beatPerMeasure} notes={this.notes} />
           <div className={css.container}>

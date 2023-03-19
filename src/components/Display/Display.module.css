@@ -4,7 +4,6 @@
   height: 110px;
   color: #0e0e0e;
   background-color: orange;
-  padding-bottom: 6px;
   border-radius: 6px;
   box-shadow: inset 0 0.1em 0.1em 0.09em rgba(255, 255, 255, 0.2) 
 }
@@ -18,16 +17,16 @@
   justify-content: right;
   align-items: center;
   width: 100%;
-  height: 50%;
+  height: 55px;
   font-size: 40px;
 }
 
 .beat_value {
   display: flex;
   justify-content: right;
-  align-items:flex-end;
   width: 100%;
-  height: 50%;
+  height: 55px;
+  padding-top: 14px;
   font-size: 40px;
 }
  
@@ -38,14 +37,14 @@
 .bpm {
   display:flex;
   justify-content: center;
-  height: 50%;
+  height: 55px;
   font-size: 60px;
 }
 
 .notes {
   display: flex;
   justify-content: center;
-  align-items:flex-end;
-  height: 50%;
+  padding-top: 18px;
+  height: 55px;
   font-size: 35px;
 }
