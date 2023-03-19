@@ -37,14 +37,15 @@
 .bpm {
   display:flex;
   justify-content: center;
-  height: 55px;
+  align-items: center;
+  height: 68px;
   font-size: 60px;
 }
 
 .notes {
   display: flex;
   justify-content: center;
-  padding-top: 18px;
-  height: 55px;
+  padding-top: 4px;
+  height: 40px;
   font-size: 35px;
 }
