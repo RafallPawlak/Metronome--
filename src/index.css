@@ -1,10 +1,15 @@
-@import-normalize; /* bring in normalize.css styles */
+@font-face {
+  font-family: 'digital-7 MonoItalic';
+  src: url('./data/digital7.ttf');
+}
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  background-color: #202020;
+  font-family: 'digital-7 MonoItalic', TrueType;
+  color: #aaa;
+  text-align: center;
+  user-select: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -13,3 +18,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+

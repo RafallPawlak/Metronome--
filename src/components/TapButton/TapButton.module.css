@@ -1,0 +1,12 @@
+
+.button {
+    width: 7em;
+    height: 7em;
+    background: #181818;
+    font-weight: 500;
+    color: #838282;
+    border: solid 0.25em #0e0e0e;
+    border-radius: 50%;
+    background: linear-gradient(#131313, #1d1d1d);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#131313', endColorstr='#1d1d1d', GradientType=1);
+}

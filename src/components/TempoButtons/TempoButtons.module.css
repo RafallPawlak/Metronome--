@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 13em;
+    margin-top: 6px;
+    margin-left: 37%;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 66px;
+    height: 28px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #838282;
+    background: #181818;
+    border: solid 0.15em #0e0e0e;
+        background: linear-gradient(#131313, #1d1d1d);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#131313', endColorstr='#1d1d1d', GradientType=1);
+        box-shadow: 0 0.03em 0.1em 0.05em rgba(255, 255, 255, 0.1) inset;
+}

@@ -1,0 +1,16 @@
+.button {
+  width: 75%;
+  height: 100px;
+  margin: 0px auto;
+  padding: 10px;
+  border: solid 0.15em #0e0e0e;
+  border-radius: 23px 23px 0px 0px;
+  color: #838282;
+  font-weight: 500;
+  font-size: 1.4em;
+  background: #181818;
+  background: linear-gradient(#131313, #1d1d1d);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#131313', endColorstr='#1d1d1d', GradientType=1);
+  box-shadow: 0 0.03em 0.1em 0.05em rgba(255, 255, 255, 0.1) inset, 0 -0.2em 0.1em 0.05em rgba(0, 0, 0, 0.5) inset;
+}
+

@@ -1,0 +1,42 @@
+.section {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.title {
+    font-family: Tahoma, sans-serif;
+    color: #838282;
+    font-weight: 500;
+    font-size: 2em;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.contaier_led {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.led_red {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    color: #ff2626;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.led_green {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    color: #2eff27;
+    font-weight: 500;
+    font-size: 40px;
+}
