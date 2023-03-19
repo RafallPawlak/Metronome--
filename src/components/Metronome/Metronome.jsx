@@ -184,10 +184,6 @@ export class Metronome extends Component {
     let data = new Date();
     let time = parseInt(data.getTime(), 10);
     const bpm = Math.ceil(60000 / (time - tapBpm))
-    clearInterval(intervalId);
-      this.setState({
-        isPlaying: false
-      });
       if (bpm > 200) {
         return;
       } 
